@@ -1,0 +1,83 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.green{
+    color: #43a047;
+}
+
+.simple-block{
+    background-color: rgb(235, 180, 189);
+    color: #000;
+}
+
+.main-bg{
+    background-color: khaki;
+}
+
+.bg{
+    background-color: hotpink;
+}
+.gold{
+    color: gold;
+}
+.empty{
+    height: 100px;
+}
+
+form{
+    max-width: 200px;
+}
+
+input{
+    margin: 10px 0;
+}
+
+#colourSelector{
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.colour-item{
+    height: 50px;
+    width: 50px;
+    margin: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.white{
+    background-color: #fff;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: pink;
+}
+
+#test{
+    max-width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: #8010cf;
+    background-color: #d6cdcd;
+}
+
+
+.selected{
+    border: 2px dashed #d81b60;
+    padding: 5px;
+    margin: 2px 0;
+}
