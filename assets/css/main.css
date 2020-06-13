@@ -1,47 +1,49 @@
-body{
+body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 15px;
 }
 
-.green{
+.green {
     color: #43a047;
 }
 
-.simple-block{
+.simple-block {
     background-color: rgb(235, 180, 189);
     color: #000;
 }
 
-.main-bg{
+.main-bg {
     background-color: khaki;
 }
 
-.bg{
+.bg {
     background-color: hotpink;
 }
-.gold{
+
+.gold {
     color: gold;
 }
-.empty{
+
+.empty {
     height: 100px;
 }
 
-form{
+form {
     max-width: 200px;
 }
 
-input{
+input {
     margin: 10px 0;
 }
 
-#colourSelector{
+#colourSelector {
     display: flex;
     margin: 0 auto;
     max-width: 500px;
 }
 
-.colour-item{
+.colour-item {
     height: 50px;
     width: 50px;
     margin: 10px 20px;
@@ -49,23 +51,27 @@ input{
     border-radius: 50%;
 }
 
-.white{
+.white {
     background-color: #fff;
 }
-.yellow{
+
+.yellow {
     background-color: yellow;
 }
-.red{
+
+.red {
     background-color: red;
 }
-.green{
+
+.green {
     background-color: green;
 }
-.pink{
+
+.pink {
     background-color: pink;
 }
 
-#test{
+#test {
     max-width: 300px;
     height: 50px;
     margin: 0 auto;
@@ -75,8 +81,7 @@ input{
     background-color: #d6cdcd;
 }
 
-
-.selected{
+.selected {
     border: 2px dashed #d81b60;
     padding: 5px;
     margin: 2px 0;
