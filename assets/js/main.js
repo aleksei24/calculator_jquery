@@ -86,4 +86,19 @@ $(function () {
     // $('.menu-list li:even'); // обращение к чётному элементу массива (счёт с 0)
     // $('.menu-list li:odd'); // обращение к нечётному элементу массива (счёт с 0)
     // $('div:not(#test)'; // обращение ко всем div кроме с id=test
+    // методы text(), hide(), show()
+    // $('.some-text p').text('New text');
+    // $('.some-text p').hide(3000);
+    // $('.some-text p').show(3000);
+    // цепные функции
+    // $('.some-text p').hide(3000).show(2500);
+    // $('.cards-item > h3').text('New');
+    // методы height(), width()
+    // $('#poke').width(200);
+    function showWidth(elem) {
+        let pokeBtn = '#' + elem;
+        let width = $(pokeBtn).width();
+        $('.cards-item h3').text('Width is ' + width);
+    }
+    showWidth('poke');
 });

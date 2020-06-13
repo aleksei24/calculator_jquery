@@ -4,6 +4,10 @@ body {
     padding: 15px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .green {
     color: #43a047;
 }
@@ -103,5 +107,28 @@ a {
 }
 
 .menu-list a {
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: #df7ca0;
+    margin-bottom: 30px;
+}
+
+.cards-item {
+    flex: 0 0 18%;
+    text-align: center;
+}
+
+#poke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
     text-transform: uppercase;
 }
