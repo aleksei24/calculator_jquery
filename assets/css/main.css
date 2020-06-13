@@ -86,3 +86,22 @@ input {
     padding: 5px;
     margin: 2px 0;
 }
+
+.menu {
+    width: 600px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu-list a {
+    text-transform: uppercase;
+}
