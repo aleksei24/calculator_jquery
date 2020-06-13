@@ -76,4 +76,5 @@ $(function () {
     //     let cloneElement = $(this).clone();
     //     $('#test').after(cloneElement);
     // });
+    // выборка элементов по трём селекторам
 });
