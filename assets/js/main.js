@@ -95,10 +95,27 @@ $(function () {
     // $('.cards-item > h3').text('New');
     // методы height(), width()
     // $('#poke').width(200);
-    function showWidth(elem) {
-        let pokeBtn = '#' + elem;
-        let width = $(pokeBtn).width();
-        $('.cards-item h3').text('Width is ' + width);
-    }
-    showWidth('poke');
+    // function showWidth(elem) {
+    //     let pokeBtn = '#' + elem;
+    //     let width = $(pokeBtn).width();
+    //     $('.cards-item h3').text('Width is ' + width);
+    // }
+    // showWidth('poke');
+    $('.gallery__small a').click(function (el) {
+        if ($('.gallery__big img').attr('src') !== $(this).attr('href')) {
+            $('.gallery__big img')
+                .hide()
+                .attr('src', $(this).attr('href'))
+                .fadeIn(1500);
+        }
+        el.preventDefault();
+    });
+    $('#btn').click(function () {
+        $('.gallery__show').slideToggle(800);
+        if ($('#btn').text() == 'close') {
+            $('#btn').text('open');
+        } else {
+            $('#btn').text('close');
+        }
+    });
 });
