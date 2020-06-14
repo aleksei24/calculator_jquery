@@ -132,3 +132,29 @@ a {
     width: 100px;
     text-transform: uppercase;
 }
+
+.gallery {
+    margin: 10px auto;
+    padding: 40px 10px;
+    width: 700px;
+    background-color: aquamarine;
+}
+
+.gallery__show {
+    text-align: center;
+    height: 1000px;
+}
+
+.gallery__big {
+    margin-bottom: 30px;
+}
+
+.gallery__small {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__small img {
+    width: 24%;
+}
